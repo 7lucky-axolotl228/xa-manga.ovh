@@ -5,9 +5,12 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Project</title>
+  <title>Читай любимую мангу онлайн</title>
 
- <!--Fonts-->
+  <!--Fonts-->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
 
   <!-- Stylesheets -->
   <link rel="stylesheet" href="css/normalize.css">
@@ -16,8 +19,46 @@
 
 <body>
 
+  <header class="site-header">
+    <div class="site-header__container container">
+
+      <a href="" class="site-header__logo logo">manga.ovh</a>
+
+      <nav class="site-header__sitenav sitenav">
+        <ul class="sitenav__list">
+          <li class="sitenav__item"><a class="sitenav__link" href="">Популярное</a></li>
+          <li class="sitenav__item"><a class="sitenav__link" href="">Каталог</a></li>
+          <li class="sitenav__item"><a class="sitenav__link" href="">Случайное</a></li>
+          <li class="sitenav__item"><a class="sitenav__link" href="">Форум</a></li>
+          <li class="sitenav__item"><a class="sitenav__link" href="">FAQ</a></li>
+        </ul>
+      </nav>
 
 
+      <div class="site-header__icons-wrapper icon">
+        <a class="icon__link" href=""><img class="icon__img" src="img/search-icon.svg" alt="" width="24" height="24"></a>
+        <a class="icon__link" href=""><img class="icon__img" src="img/edit-icon.svg" alt="" width="24" height="24"></a>
+        <a class="icon__link" href=""><img class="icon__img" src="img/notification-icon.svg" alt="" width="24" height="24"></a>
+        <a class="icon__link" href=""><img class="icon__img" src="img/folder-icon.svg" alt="" width="24" height="24"></a>
+        <img class="account-img" src="img/account-img.webp" alt="" width="25" height="25">
+      </div>
+
+    </div>
+  </header>
+
+
+
+  <section class="modal">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <p>Assalomu alaykum!</p>
+        <button class="modal-content-back">Back</button>
+      </div>
+    </div>
+  </section>
   <script src="js/main.js"></script>
 </body>
 </html>
+
+
+<!--    -->
