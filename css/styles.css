@@ -150,6 +150,7 @@ a {
 .main-content__app-banner {
   position: relative;
   padding: 20px 15px;
+  margin-bottom: 20px;
 }
 .banner {
   border-radius: 5px;
@@ -161,22 +162,49 @@ a {
   margin-bottom: 10px;
   font-size: 20px;
   font-weight: 500;
-  line-height: 24px;
+  line-height: 22px;
   color: var(--text-color);
 }
 .banner__description {
   margin: 0;
-  font-size: 14px;
+  font-size: 12px;
   line-height: 4px;
+  letter-spacing: 0.1px;
   color: var(--text-color-lighter);
 }
 
 .banner__img {
   position: absolute;
   right: 10px;
-  top: -65%;
-
+  top: -68%;
 }
+
+
+/* CHOICE SECTION */
+.choice__list {
+  display: flex;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+.choice__item:not(:last-child) {
+  margin-right: 10px;
+}
+.choice__item-img {
+  margin: 0;
+  width: 150px;
+  height: 212px;
+  object-fit: contain;
+  border-radius: 8px;
+}
+.choice__item-title {
+  margin: 0;
+  font-size: 12px;
+  line-height: 5px;
+  text-align: center;
+  color: var(--text-color-lighter);
+}
+
 
 
 
