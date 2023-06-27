@@ -150,7 +150,6 @@ a {
 .main-content__app-banner {
   position: relative;
   padding: 20px 15px;
-  margin-bottom: 20px;
 }
 .banner {
   border-radius: 5px;
@@ -181,24 +180,41 @@ a {
 
 
 /* CHOICE SECTION */
+.choice {
+  margin-top: 20px;
+  margin-bottom: 25px;
+}
+
+.choice__heading {
+  margin-top: 0;
+  margin-bottom: 15px;
+  font-weight: 400;
+  line-height: 20px;
+  color: var(--text-color);
+}
+
 .choice__list {
   display: flex;
   padding: 0;
   margin: 0;
   list-style: none;
 }
+
 .choice__item:not(:last-child) {
   margin-right: 10px;
 }
+
 .choice__item-img {
+  display: flex;
   margin: 0;
   width: 150px;
   height: 212px;
   object-fit: contain;
   border-radius: 8px;
 }
+
 .choice__item-title {
-  margin: 0;
+  margin-top: 12px;
   font-size: 12px;
   line-height: 5px;
   text-align: center;
