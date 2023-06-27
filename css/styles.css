@@ -229,9 +229,9 @@ a {
   position: absolute;
   top: 5px;
   left: 5px;
-  padding: 3px 4px;
+  padding: 3px 5px;
   font-size: 13px;
-  border-radius: 10px;
+  border-radius: 15px;
   color: var(--text-color);
   background-color: #fff;
 }
